@@ -1,0 +1,8 @@
+{
+  // enable logging using morgan
+  "logging": true,
+  // relative to server.ts (set null to disable)
+  "publicPath": "./public",
+  // 0=auto, 1=disable 2+=specific number of workers (requires NODE_ENV != 'development')
+  "workers": 0
+}

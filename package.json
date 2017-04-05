@@ -1,0 +1,39 @@
+{
+  "name": "rhyhorn-core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "build": "webpack --env.production",
+    "download": "npm install --production",
+    "listen": "node ./src/server.js",
+    "serve": "webpack --watch --env.serve",
+    "watch": "webpack --watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bcrypt": "^1.0.0",
+    "@types/bluebird": "^3.5.2",
+    "@types/express": "^4.0.35",
+    "@types/knex": "0.0.44",
+    "@types/morgan": "^1.7.32",
+    "@types/webpack": "^2.2.14",
+    "ts-loader": "^2.0.3",
+    "tslint": "^5.0.0",
+    "typescript": "^2.2.2",
+    "webpack": "^2.3.3",
+    "webpack-node-externals": "^1.5.4",
+    "webpack-shell-plugin": "^0.5.0"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "decomment": "^0.8.7",
+    "express": "^4.15.2",
+    "knex": "^0.12.9",
+    "morgan": "^1.8.1",
+    "pg": "^6.1.5"
+  }
+}
